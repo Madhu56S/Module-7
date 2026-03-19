@@ -16,9 +16,23 @@ To write a Python program to demonstrate **Head Recursion** by finding and print
 7. **Stop**
 
 ## 💻 PROGRAM:
+```
+def fun(n,d):
+    if (n > 0):
+        fun(n - d,d)
+        print(n, end=" ")
+ 
+d= int(input())
+x = int(input())
+fun(x,d)
 
-ADD CODE HERE
+```
+
+
 
 ## OUTPUT
 
+<img width="1254" height="256" alt="image" src="https://github.com/user-attachments/assets/962d5dda-5e8f-48a2-add3-8b1988753455" />
+
 ## RESULT
+Thus the required head recursion ouput is Verified.
